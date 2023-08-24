@@ -1,10 +1,15 @@
-Swal.fire({
-    title: 'Update pendente',
-    text: 'Versões reformuladas dos jogos serão lançadas em breve.',
-    icon: 'info',
-    confirmButtonColor: '#3085d6',
-    imageAlt: 'Custom image',
-})
+setTimeout(
+    () => {
+        Swal.fire({
+            title: 'Update pendente',
+            text: 'Versões reformuladas dos jogos serão lançadas em breve.',
+            icon: 'info',
+            confirmButtonColor: '#3085d6',
+            imageAlt: 'Custom image',
+        })
+    },
+    800
+);
 
 $(document).on('click', '.nav-link.warning', function(e){
     e.preventDefault();
