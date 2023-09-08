@@ -13322,7 +13322,8 @@ textarea.form-control-lg {
   font-size: 2rem;
 }
 
-.no-select {
+.no-select, 
+.swal2-popup {
   user-select: none;
 }
 
@@ -13343,7 +13344,6 @@ textarea.form-control-lg {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 
 body.swal2-shown>[aria-hidden="true"] {
   transition: 0.1s filter;
